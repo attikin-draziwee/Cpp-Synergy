@@ -1,14 +1,9 @@
-//
-//  main.cpp
-//  LearnCppSynergy
-//
-//  Created by Nikita Popkov on 06.02.2023.
-//
+#include<cstdio>
+#include<iostream>
 
-#include <iostream>
-
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+//    system("chcp 1251>nul"); // for windows
+    printf("Hello");
+//    system("pause>nul"); // for windows
     return 0;
 }
